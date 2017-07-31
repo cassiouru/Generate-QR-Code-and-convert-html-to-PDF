@@ -1,0 +1,18 @@
+﻿@using Rotativa.Extensions
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Bem vindo ao MeuCondominio</h1>
+
+<h3>Ultilize QR Code para acessar</h3>
+<div>
+    @Html.GenerateQrCode("http://meucondominio.com.br", "QR Code", 75, 75)
+</div>
+
+
+
+
+
+
