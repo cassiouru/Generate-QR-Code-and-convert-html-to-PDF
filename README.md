@@ -1,4 +1,4 @@
-# Generate QR-Code and convert page to PDF
+# Generate QR Code and convert page to PDF
 
 ## Dependencies
 * ItextSharp
